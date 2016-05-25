@@ -1,0 +1,12 @@
+.box{
+	width: 60px;
+	height: 60px;
+	border: 1px solid purple;
+	border-radius: 5px;
+	margin: 6px ;
+	display: inline-block;
+}
+.box:hover{
+	border: 1px solid purple;
+	background-color: rgba(204, 204, 204, 0.53);
+}

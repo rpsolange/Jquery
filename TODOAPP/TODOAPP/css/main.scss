@@ -1,0 +1,53 @@
+.box-fixed{
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid gray;
+	background-color: white;
+	z-index: 10;
+	.title-box{
+		background-color: rgb(51, 122, 183);
+		padding: 1%;
+		color: white;
+		font-weight: bold;
+		font-size: 1.3em;
+		border-bottom: 1px solid gray; 
+	}
+	.box{
+		padding: 2% 10%;
+		button{
+			margin: 2% 0;
+		}
+	}	
+}
+
+#texto{
+	padding: 22% 10% 10%;
+	.gray-box{
+		background-color: rgba(128, 128, 128, 0.4);
+		margin-top: 1.5%;
+		padding: 2%;
+		.nota{
+			margin-left: 2%;
+			word-break: break-all;
+		}
+		button{
+			float: right;
+		}
+	}
+}
+
+@media(max-width: 900px){
+	#texto{
+		padding: 30% 10% 10%;
+	}
+}
+@media(max-width: 650px){
+	#texto{
+		padding: 40% 10% 10%;
+	}
+}
+@media(max-width: 480px){
+	#texto{
+		padding: 50% 10% 10%;
+	}
+}

@@ -1,0 +1,23 @@
+.dropdown{
+	display: inline-block;
+	margin-left: 2%;
+	padding: 1%;
+	border-radius: 5px;
+	border: 2px solid green;
+}
+#nombre-coder{
+	margin: 2% 0;
+}
+.score{
+	float: right;
+}
+#box-faces{
+	border: 1px solid purple;
+	border-radius: 5px;
+	margin-top: 2%;
+	padding: 2%;
+}
+.foto-coder{
+	width: 100%;
+	border-radius: 15px;
+}

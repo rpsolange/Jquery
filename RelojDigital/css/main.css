@@ -1,0 +1,32 @@
+body{
+	background-image: url("../s6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+#reloj{
+	font-size: 2.5em;
+	margin-top: 3%;
+}
+#reloj, #fecha{
+	color: white;
+}
+.btn-info{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 4%;
+	left: 50%;
+}
+.btn-info:hover, .btn-info:focus, .btn-info{
+	background-color: #BFBDBD;
+	border: 1px solid #BFBDBD;
+}
+.input-group{
+	margin: 2% 0;
+}
