@@ -9,7 +9,7 @@ body{
 	font-size: 2.5em;
 	margin-top: 3%;
 }
-#reloj, #fecha{
+#reloj, #fecha, p{
 	color: white;
 }
 .btn-info{
@@ -29,4 +29,16 @@ body{
 }
 .input-group{
 	margin: 2% 0;
+}
+.box-style{
+	margin: 7% 0;
+	padding: 0 4%;
+}
+
+p{
+	display: inline-block;
+	font-size: 1.4em;
+}
+.text{
+	float: right;
 }

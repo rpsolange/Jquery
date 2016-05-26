@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$( '.check' ).on( 'click', function() {
 		valorData= $(this).attr("data");
 		if( $(this).is(':checked') ){
-			$(".box").append("<div id='caja"+valorData+"'></div>");
+			$(".box").append("<div class='box-style' id='caja"+valorData+"'></div>");
 			horario(valorData);
 		} else{
 			$("#caja"+valorData).remove();
@@ -94,7 +94,7 @@ function horario(val){
     if(second<10)
         second = "0" + second;
 
-	$("#caja"+val).html("<span>"+valorName+"</span>"+"<span class='text'>"+horaFinal+" : "+minute+"</span>");
+	$("#caja"+val).html("<p>"+valorName+"</p><p class='text'>"+horaFinal+" : "+minute+"</p>");
 	setTimeout('horario('+val+')',1000);
 }
 
